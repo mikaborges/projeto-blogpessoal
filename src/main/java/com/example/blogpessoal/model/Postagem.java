@@ -21,14 +21,14 @@ public class Postagem {
 	private Long id; 
 	
 	@NotBlank(message = "O atributo título é obrigatorio")
-	@Size(min = 5, max = 100, message = "O título tem que ser maior que 5 e menor que 100") //NotBlank é como se fosse o not null (campo obrigatorio)
+	@Size(min = 5, max = 100, message = "O título tem que ser maior que 5 e menor que 100") 
 	private String titulo;
 	
 	@NotBlank(message = "O atributo texto é obrigatorio")
 	@Size(min = 5, max = 1000, message = "O título tem que ser maior que 5 e menor que 1000")
 	private String texto;
 	
-	@UpdateTimestamp //Pega a hora que foi feita a postagem e grava na tabela.
+	@UpdateTimestamp 
 	private LocalDateTime data;
 
 	public Long getId() {
