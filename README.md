@@ -8,6 +8,8 @@ Este repositório contém o código-fonte do blog pessoal, desenvolvido utilizan
 - **Spring Boot**
 - **Spring Data JPA**
 - **Banco de Dados Relacional**
+- **Spring Security**
+
 
 
 
